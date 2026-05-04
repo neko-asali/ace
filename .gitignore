@@ -1,0 +1,21 @@
+# Dependencies & builds
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/.turbo/
+*.tsbuildinfo
+
+# Env & local tooling
+.env*
+.vercel
+
+# Large archives (do not commit)
+*.zip
+
+# Legacy bulk assets not needed for the Next.js site deploy
+/Jpg/
+
+# OS
+.DS_Store
+Thumbs.db
