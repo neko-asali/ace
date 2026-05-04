@@ -16,6 +16,9 @@
 # Legacy bulk assets not needed for the Next.js site deploy
 /Jpg/
 
+# Old subdirectory (may remain locally with node_modules locks after hoist)
+/ace-site/
+
 # OS
 .DS_Store
 Thumbs.db
