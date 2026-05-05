@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white text-[#151515]">
-      <header className="sticky top-0 z-30 border-b border-black/10 bg-white/95 backdrop-blur">
+      <header className="sticky top-0 z-30 border-b border-black/10 bg-white">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 md:px-8">
           <a href="#" className="inline-flex items-center">
             <Image
